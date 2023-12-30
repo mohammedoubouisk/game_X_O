@@ -1,0 +1,168 @@
+/* .game{
+    width: 255px;
+    text-align: center;
+    font-family: system-ui;
+    color: white;
+    margin: auto;
+}
+.title{
+    background: #f25;
+    padding: 5px 0;
+    margin: 5px 0;
+}
+span{
+    color: #fa0;
+}
+.square{
+    width: 80px;
+    height: 80px;
+    background: #f25;
+    float: left;
+    margin: 2px;
+    font-size: 50px;
+    align-items: center;
+    font-weight: 500;
+}
+.square:hover{
+    background: rgb(45, 16, 16);
+}
+body{
+    background-color: rgba(251, 38, 19, 0.392);
+}
+p{
+    text-decoration: underline;
+    padding: 20px;
+}
+p:hover{
+    text-decoration: none;
+    color: rgb(190, 237, 255);
+    transform: scaleZ(5px);
+} */
+
+
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background: rgba(146, 83, 255, 0.201);
+    }
+.game{
+    width: 500px;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 5%;
+}
+.square{
+    background: rgb(89, 12, 232);
+    width: 125px;
+    height: 125px;
+    float: left;
+    margin: 10px;
+    color: #fff;
+    font-size: 100px;
+    align-items: center;
+}
+.square:hover{
+    background-color: rgba(53, 0, 152, 0.942);
+}
+
+.title{
+    background-color: rgba(89, 12, 232, 0.651);
+    font-size: 30px;
+    padding: 5px 0;
+    font-weight: 500;
+    width: 435px;
+    color: rgb(255, 173, 251);
+    box-shadow: 0px 0px 4.6px 0.4px rgb(255, 61, 148);
+}
+p{
+    text-transform: capitalize;
+    float: left;
+    width: 90%;
+    margin: auto;
+    padding: 15px;
+    color: grey;
+    transition: 0.5s;
+}
+p:hover{
+    color: rgb(255, 61, 148);
+    
+}
+
+/* background color of page */
+
+#pink{
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    background-color: rgb(255, 61, 148);
+}
+#Lavender{
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    background-color: Lavender;
+}
+#bisque{
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    background-color: bisque;
+}
+#yellow{
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    background-color: yellow;
+}
+#MintCream{
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    background-color: MintCream;
+}
+#MediumVioletRed{
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    background-color: MediumVioletRed;
+}
+#Plum{
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    background-color: Plum;
+}
+#Turquoise{
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    background-color: Turquoise;
+}
+#LavenderBlush{
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    background-color: LavenderBlush;
+}
+#LightPink{
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    background-color: LightPink;
+}
+.cardes{
+    display: flex;
+    padding: 10px;
+    gap: 5px;
+}
+
+/* video la pade seux */
+
